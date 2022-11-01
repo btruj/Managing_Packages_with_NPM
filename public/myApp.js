@@ -1,5 +1,5 @@
-let express = require('express');
-let app = express();
+var express = require('express');
+var app = express();
 var bGround = require('fcc-express-bground');
 
 
@@ -10,6 +10,7 @@ var bGround = require('fcc-express-bground');
 
 
 bGround.log("Hello World");
+console.log("Hello World");
 
 
 
